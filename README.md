@@ -32,3 +32,6 @@ Em casos de temperaturas extremas ($\ge 150^\circ\text{C}$ ou $\le -150^\circ\te
 ### 3. Resiliência (Modo de Espera Passivo)
 Caso a energia esteja severamente baixa ($\le 15\%$), o script suspende o controle ativo e entra em modo de espera para priorizar o **recarregamento fotovoltaico**, simulando o comportamento real de sondas espaciais.
 
+### 4. Recarregamento via Painéis Solares
+No projeto a nave conta com painéis de energia solar que serão utilizados a todo momento para geração de nergia limpa para a nave, mas serão de extrema importância em casos de falta de energia nas baterias.
+
