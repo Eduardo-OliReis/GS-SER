@@ -13,7 +13,7 @@ A aplicação analisa em tempo real variáveis essenciais como temperatura, stat
 
 ## 🛠️ Funcionalidades Implementadas
 
-* **Monitoramento de Dados Simulados:** Captura e tratamento de dados cíclicos de telemetria (temperatura externa, estabilidade de sinal, nível de bateria e falhas em módulos).
+* **Monitoramento de Dados Simulados:** Captura e tratamento de dados gerados automaticamento em cíclos (dados de temperatura externa, estabilidade de sinal, nível de bateria e falhas em módulos).
 * **Geração Automática de Alertas:** Identificação visual imediata de anomalias operacionais, como riscos de congelamento, superaquecimento ou falhas críticas de hardware.
 * **Tomada de Decisão Básica:** Estruturas lógicas automatizadas que reagem às crises, acionando sistemas de suporte à vida ou ajustando a posição da nave para restabelecer comunicação.
 * **Gerenciamento Sustentável de Energia:** Ativação automática de modos de contenção de gastos baseados na reserva energética disponível.
@@ -32,10 +32,3 @@ Em casos de temperaturas extremas ($\ge 150^\circ\text{C}$ ou $\le -150^\circ\te
 ### 3. Resiliência (Modo de Espera Passivo)
 Caso a energia esteja severamente baixa ($\le 15\%$), o script suspende o controle ativo e entra em modo de espera para priorizar o **recarregamento fotovoltaico**, simulando o comportamento real de sondas espaciais.
 
----
-
-## 🚀 Como Executar
-1. Certifique-se de ter o Python instalado.
-2. Clone o repositório:
-   ```bash
-   git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
